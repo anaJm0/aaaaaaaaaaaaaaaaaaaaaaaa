@@ -1,1 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
 
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.materias {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.quadro {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.quadro img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.quadro h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.quadro p {
+    font-size: 1em;
+    color: #333;
+}
